@@ -163,10 +163,442 @@ const aiTools: AITool[] = [
     featured: false,
     tags: ['copywriting', 'marketing', 'social media'],
     icon: 'FileText'
+  },
+  {
+    id: '13',
+    name: 'Grammarly',
+    description: 'AI-powered writing assistant that helps with grammar, spelling, and style.',
+    category: 'Writing Assistant',
+    pricing: 'Freemium',
+    rating: 4.6,
+    url: 'https://grammarly.com',
+    featured: false,
+    tags: ['grammar', 'writing', 'editing'],
+    icon: 'FileText'
+  },
+  {
+    id: '14',
+    name: 'Canva AI',
+    description: 'AI-powered design tools for creating graphics, presentations, and marketing materials.',
+    category: 'Design Tools',
+    pricing: 'Freemium',
+    rating: 4.7,
+    url: 'https://canva.com',
+    featured: true,
+    tags: ['design', 'graphics', 'templates'],
+    icon: 'Palette'
+  },
+  {
+    id: '15',
+    name: 'Loom AI',
+    description: 'AI-enhanced video messaging and screen recording with automatic transcription.',
+    category: 'Video Generation',
+    pricing: 'Freemium',
+    rating: 4.5,
+    url: 'https://loom.com',
+    featured: false,
+    tags: ['video', 'recording', 'transcription'],
+    icon: 'Video'
+  },
+  {
+    id: '16',
+    name: 'Otter.ai',
+    description: 'AI meeting assistant that records, transcribes, and summarizes conversations.',
+    category: 'Productivity',
+    pricing: 'Freemium',
+    rating: 4.4,
+    url: 'https://otter.ai',
+    featured: false,
+    tags: ['transcription', 'meetings', 'notes'],
+    icon: 'MessageSquare'
+  },
+  {
+    id: '17',
+    name: 'Replicate',
+    description: 'Run open-source machine learning models with a cloud API.',
+    category: 'Developer Tools',
+    pricing: 'Paid',
+    rating: 4.5,
+    url: 'https://replicate.com',
+    featured: false,
+    tags: ['ml', 'api', 'open-source'],
+    icon: 'Code'
+  },
+  {
+    id: '18',
+    name: 'Synthesia',
+    description: 'Create AI-generated videos with virtual presenters from text scripts.',
+    category: 'Video Generation',
+    pricing: 'Paid',
+    rating: 4.3,
+    url: 'https://synthesia.io',
+    featured: false,
+    tags: ['video', 'avatars', 'presentation'],
+    icon: 'Video'
+  },
+  {
+    id: '19',
+    name: 'Writesonic',
+    description: 'AI writing platform for articles, ads, emails, and website copy.',
+    category: 'Writing Assistant',
+    pricing: 'Freemium',
+    rating: 4.4,
+    url: 'https://writesonic.com',
+    featured: false,
+    tags: ['writing', 'content', 'marketing'],
+    icon: 'FileText'
+  },
+  {
+    id: '20',
+    name: 'Pictory',
+    description: 'Transform text content into engaging videos using AI.',
+    category: 'Video Generation',
+    pricing: 'Paid',
+    rating: 4.2,
+    url: 'https://pictory.ai',
+    featured: false,
+    tags: ['video', 'content', 'automation'],
+    icon: 'Video'
+  },
+  {
+    id: '21',
+    name: 'Tome',
+    description: 'AI-powered storytelling and presentation tool.',
+    category: 'Productivity',
+    pricing: 'Freemium',
+    rating: 4.3,
+    url: 'https://tome.app',
+    featured: false,
+    tags: ['presentations', 'storytelling', 'design'],
+    icon: 'FileText'
+  },
+  {
+    id: '22',
+    name: 'Fireflies.ai',
+    description: 'AI meeting assistant that records, transcribes, and analyzes conversations.',
+    category: 'Productivity',
+    pricing: 'Freemium',
+    rating: 4.5,
+    url: 'https://fireflies.ai',
+    featured: false,
+    tags: ['meetings', 'transcription', 'analysis'],
+    icon: 'MessageSquare'
+  },
+  {
+    id: '23',
+    name: 'Descript',
+    description: 'AI-powered video and podcast editing with text-based editing.',
+    category: 'Video Generation',
+    pricing: 'Freemium',
+    rating: 4.6,
+    url: 'https://descript.com',
+    featured: false,
+    tags: ['video', 'podcast', 'editing'],
+    icon: 'Video'
+  },
+  {
+    id: '24',
+    name: 'Gamma',
+    description: 'AI-powered presentation and document creation tool.',
+    category: 'Productivity',
+    pricing: 'Freemium',
+    rating: 4.4,
+    url: 'https://gamma.app',
+    featured: false,
+    tags: ['presentations', 'documents', 'design'],
+    icon: 'FileText'
+  },
+  {
+    id: '25',
+    name: 'Hugging Face',
+    description: 'Platform for machine learning models, datasets, and AI applications.',
+    category: 'Developer Tools',
+    pricing: 'Freemium',
+    rating: 4.7,
+    url: 'https://huggingface.co',
+    featured: true,
+    tags: ['ml', 'models', 'community'],
+    icon: 'Code'
+  },
+  {
+    id: '26',
+    name: 'Eleven Labs',
+    description: 'AI voice generation and cloning with realistic speech synthesis.',
+    category: 'Audio Generation',
+    pricing: 'Freemium',
+    rating: 4.8,
+    url: 'https://elevenlabs.io',
+    featured: true,
+    tags: ['voice', 'speech', 'cloning'],
+    icon: 'Music'
+  },
+  {
+    id: '27',
+    name: 'Framer AI',
+    description: 'AI-powered website builder and design tool.',
+    category: 'Design Tools',
+    pricing: 'Freemium',
+    rating: 4.5,
+    url: 'https://framer.com',
+    featured: false,
+    tags: ['web design', 'no-code', 'prototyping'],
+    icon: 'Globe'
+  },
+  {
+    id: '28',
+    name: 'Cursor',
+    description: 'AI-powered code editor built for pair programming with AI.',
+    category: 'Code Assistant',
+    pricing: 'Freemium',
+    rating: 4.6,
+    url: 'https://cursor.sh',
+    featured: false,
+    tags: ['coding', 'editor', 'ai-pair'],
+    icon: 'Code'
+  },
+  {
+    id: '29',
+    name: 'Replit AI',
+    description: 'AI coding assistant integrated into the Replit development environment.',
+    category: 'Code Assistant',
+    pricing: 'Freemium',
+    rating: 4.4,
+    url: 'https://replit.com',
+    featured: false,
+    tags: ['coding', 'development', 'collaboration'],
+    icon: 'Code'
+  },
+  {
+    id: '30',
+    name: 'Anthropic Claude',
+    description: 'Constitutional AI assistant focused on being helpful, harmless, and honest.',
+    category: 'Conversational AI',
+    pricing: 'Freemium',
+    rating: 4.7,
+    url: 'https://claude.ai',
+    featured: false,
+    tags: ['conversation', 'analysis', 'safety'],
+    icon: 'Brain'
+  },
+  {
+    id: '31',
+    name: 'Poe by Quora',
+    description: 'Access multiple AI models including GPT-4, Claude, and others in one platform.',
+    category: 'Conversational AI',
+    pricing: 'Freemium',
+    rating: 4.3,
+    url: 'https://poe.com',
+    featured: false,
+    tags: ['multi-model', 'chat', 'comparison'],
+    icon: 'MessageSquare'
+  },
+  {
+    id: '32',
+    name: 'Perplexity Pro',
+    description: 'Advanced AI search with real-time information and source citations.',
+    category: 'Search & Research',
+    pricing: 'Freemium',
+    rating: 4.6,
+    url: 'https://perplexity.ai',
+    featured: false,
+    tags: ['search', 'research', 'citations'],
+    icon: 'Globe'
+  },
+  {
+    id: '33',
+    name: 'Zapier AI',
+    description: 'AI-powered automation platform connecting apps and workflows.',
+    category: 'Productivity',
+    pricing: 'Freemium',
+    rating: 4.5,
+    url: 'https://zapier.com',
+    featured: false,
+    tags: ['automation', 'workflows', 'integration'],
+    icon: 'Zap'
+  },
+  {
+    id: '34',
+    name: 'Figma AI',
+    description: 'AI features in Figma for design automation and content generation.',
+    category: 'Design Tools',
+    pricing: 'Freemium',
+    rating: 4.6,
+    url: 'https://figma.com',
+    featured: false,
+    tags: ['design', 'ui/ux', 'collaboration'],
+    icon: 'Palette'
+  },
+  {
+    id: '35',
+    name: 'Adobe Firefly',
+    description: 'AI-powered creative tools for image generation and editing.',
+    category: 'Image Generation',
+    pricing: 'Freemium',
+    rating: 4.5,
+    url: 'https://firefly.adobe.com',
+    featured: false,
+    tags: ['adobe', 'creative', 'editing'],
+    icon: 'Image'
+  },
+  {
+    id: '36',
+    name: 'Krisp',
+    description: 'AI-powered noise cancellation for calls and recordings.',
+    category: 'Audio Generation',
+    pricing: 'Freemium',
+    rating: 4.4,
+    url: 'https://krisp.ai',
+    featured: false,
+    tags: ['noise-cancellation', 'calls', 'audio'],
+    icon: 'Music'
+  },
+  {
+    id: '37',
+    name: 'Speechify',
+    description: 'AI text-to-speech tool for converting text into natural-sounding audio.',
+    category: 'Audio Generation',
+    pricing: 'Freemium',
+    rating: 4.3,
+    url: 'https://speechify.com',
+    featured: false,
+    tags: ['text-to-speech', 'accessibility', 'reading'],
+    icon: 'Music'
+  },
+  {
+    id: '38',
+    name: 'Tabnine',
+    description: 'AI code completion tool that works with multiple IDEs and languages.',
+    category: 'Code Assistant',
+    pricing: 'Freemium',
+    rating: 4.3,
+    url: 'https://tabnine.com',
+    featured: false,
+    tags: ['code-completion', 'ide', 'productivity'],
+    icon: 'Code'
+  },
+  {
+    id: '39',
+    name: 'Codeium',
+    description: 'Free AI-powered code completion and chat assistant for developers.',
+    category: 'Code Assistant',
+    pricing: 'Free',
+    rating: 4.5,
+    url: 'https://codeium.com',
+    featured: false,
+    tags: ['free', 'code-completion', 'chat'],
+    icon: 'Code'
+  },
+  {
+    id: '40',
+    name: 'Quillbot',
+    description: 'AI-powered paraphrasing and writing enhancement tool.',
+    category: 'Writing Assistant',
+    pricing: 'Freemium',
+    rating: 4.4,
+    url: 'https://quillbot.com',
+    featured: false,
+    tags: ['paraphrasing', 'writing', 'enhancement'],
+    icon: 'FileText'
+  },
+  {
+    id: '41',
+    name: 'Wordtune',
+    description: 'AI writing companion that helps rewrite and improve your text.',
+    category: 'Writing Assistant',
+    pricing: 'Freemium',
+    rating: 4.3,
+    url: 'https://wordtune.com',
+    featured: false,
+    tags: ['rewriting', 'improvement', 'clarity'],
+    icon: 'FileText'
+  },
+  {
+    id: '42',
+    name: 'Rytr',
+    description: 'AI writing assistant for creating content in various formats and tones.',
+    category: 'Writing Assistant',
+    pricing: 'Freemium',
+    rating: 4.2,
+    url: 'https://rytr.me',
+    featured: false,
+    tags: ['content', 'formats', 'tones'],
+    icon: 'FileText'
+  },
+  {
+    id: '43',
+    name: 'Simplified AI',
+    description: 'All-in-one AI platform for design, writing, and social media content.',
+    category: 'Design Tools',
+    pricing: 'Freemium',
+    rating: 4.3,
+    url: 'https://simplified.com',
+    featured: false,
+    tags: ['all-in-one', 'social-media', 'content'],
+    icon: 'Palette'
+  },
+  {
+    id: '44',
+    name: 'Brandmark',
+    description: 'AI-powered logo and brand identity generator.',
+    category: 'Design Tools',
+    pricing: 'Paid',
+    rating: 4.2,
+    url: 'https://brandmark.io',
+    featured: false,
+    tags: ['logo', 'branding', 'identity'],
+    icon: 'Palette'
+  },
+  {
+    id: '45',
+    name: 'Looka',
+    description: 'AI logo maker and brand kit generator for businesses.',
+    category: 'Design Tools',
+    pricing: 'Paid',
+    rating: 4.4,
+    url: 'https://looka.com',
+    featured: false,
+    tags: ['logo', 'brand-kit', 'business'],
+    icon: 'Palette'
+  },
+  {
+    id: '46',
+    name: 'Soundraw',
+    description: 'AI music generator for creating royalty-free background music.',
+    category: 'Audio Generation',
+    pricing: 'Freemium',
+    rating: 4.3,
+    url: 'https://soundraw.io',
+    featured: false,
+    tags: ['music', 'royalty-free', 'background'],
+    icon: 'Music'
+  },
+  {
+    id: '47',
+    name: 'AIVA',
+    description: 'AI composer that creates original music for various projects.',
+    category: 'Audio Generation',
+    pricing: 'Freemium',
+    rating: 4.2,
+    url: 'https://aiva.ai',
+    featured: false,
+    tags: ['composer', 'original', 'projects'],
+    icon: 'Music'
+  },
+  {
+    id: '48',
+    name: 'Beatoven.ai',
+    description: 'AI music generator that creates mood-based background music.',
+    category: 'Audio Generation',
+    pricing: 'Freemium',
+    rating: 4.1,
+    url: 'https://beatoven.ai',
+    featured: false,
+    tags: ['mood-based', 'background', 'generator'],
+    icon: 'Music'
   }
 ]
 
-const categories = ['All', 'Conversational AI', 'Image Generation', 'Code Assistant', 'Writing Assistant', 'Video Generation', 'Audio Generation', 'Search & Research', 'Productivity']
+const categories = ['All', 'Conversational AI', 'Image Generation', 'Code Assistant', 'Writing Assistant', 'Video Generation', 'Audio Generation', 'Search & Research', 'Productivity', 'Design Tools', 'Developer Tools']
 
 const getIconComponent = (iconName: string) => {
   const icons = {
@@ -276,12 +708,12 @@ function App() {
                 Categories
               </h3>
               <Tabs value={selectedCategory} onValueChange={setSelectedCategory} className="w-full">
-                <TabsList className="grid grid-cols-3 lg:grid-cols-9 w-full h-auto p-1">
+                <TabsList className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 xl:grid-cols-11 w-full h-auto p-1 gap-1">
                   {categories.map((category) => (
                     <TabsTrigger
                       key={category}
                       value={category}
-                      className="text-xs sm:text-sm px-2 py-2 data-[state=active]:bg-primary data-[state=active]:text-white"
+                      className="text-xs sm:text-sm px-2 py-2 data-[state=active]:bg-primary data-[state=active]:text-white whitespace-nowrap"
                     >
                       {category}
                     </TabsTrigger>
